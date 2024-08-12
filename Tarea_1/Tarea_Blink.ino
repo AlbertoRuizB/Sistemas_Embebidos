@@ -1,11 +1,13 @@
+#define BAUDRAT 9600
+#define LED 13
+#define TIEMPO 1000
 void setup() {
- Serial.begin(9600); 
- pinMode(13, OUTPUT);
+ Serial.begin(BAUDRAT); 
+ pinMode(LED, OUTPUT);
 }
-
 void loop() {
- digitalWrite(13, HIGH);
- delay(1000);
- digitalWrite(13, LOW);
- delay(1000);
+ digitalWrite(LED, HIGH);
+ delay(TIEMPO);
+ digitalWrite(LED, LOW);
+ delay(TIEMPO);
 }

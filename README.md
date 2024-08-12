@@ -9,9 +9,9 @@ Al mismo tiempo poner en práctica el manejo de la sintaxis de *Markdown*.
 
 ## Datos Personales
 
-Leonardo Vargas Condori
+Carlos Alberto Ruiz Balderrama.
 
-Sistemas Embebidos I  *IMT-22*
+Sistemas Embebidos I  *IMT-222*
 
 ## Instalación
 
