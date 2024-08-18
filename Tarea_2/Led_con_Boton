@@ -1,0 +1,18 @@
+# define LED 13
+# define BUTTON 2
+#define TIMELED 1000
+void setup() {
+  pinMode(BUTTON, INPUT);
+  pinMode(LED, OUTPUT);
+}
+void loop() {
+byte dato = digitalRead(2);
+if(digitalRead(2) == true){
+  digitalWrite(13, HIGH);
+  delay(TIMELED);
+}
+else{
+  digitalWrite(13,LOW);
+  delay(TIMELED);
+}
+}
